@@ -173,7 +173,6 @@ body{
 @media (max-width: 600px) {
     
 #StarterRate{
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -269,7 +268,7 @@ body{
 
 
 #EndRate{
-    display: flex;
+   
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -314,7 +313,7 @@ body{
 
 @media (max-width: 550px) {
     #StarterRate{
-        display: flex;
+       
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -385,7 +384,7 @@ body{
         font-size: 18px;
     }
     #Submit{
-        display: flex;
+     
         justify-content: center;
         align-items: center;
         background-color: hsl(25, 97%, 53%);
@@ -436,7 +435,7 @@ body{
         transition: all 0.1s;
     }
     #StarterRate{
-        display: flex;
+        
         flex-direction: column;
         align-items: center;
         justify-content: center;
