@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+  <!-- Rating state start -->
+   <div id="container">
+  <div id="StarterRate">
+  <div id="starIcon"><img src="images/icon-star.svg" alt=""></div>
+  <div id="textCont">
+ 
+  <h1 id="tituloStart">How did we do?</h1>
+  <p id="TextRate">
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
+  </p>
+  </div> 
+  <ul id="OptionRate">
+     <li class="opcao">1</li>
+     <li class="opcao">2</li>
+     <li class="opcao">3</li>
+     <li class="opcao">4</li>
+     <li class="opcao">5</li> 
+      
+  </ul>
+  <button id="Submit" onclick="submit()" value="">SUBMIT</button>
+
+  <!-- Rating state end -->
+</div>
+  <!-- Thank you state start -->
+<div id="EndRate">
+  <img src="images/illustration-thank-you.svg" alt="" id="ImageEnd">
+  <h3 id="RateCount">You selected <!-- Add rating here --> out of 5</h3>
+
+  <h1 id="tituloEnd">Thank you!</h1>
+  <p id="textEnd">
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!
+  </p>
+  <!-- Thank you state end -->
+</div>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/home" target="_blank">Otavio Amaral</a>.
+  </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
