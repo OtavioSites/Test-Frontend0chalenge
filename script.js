@@ -1,6 +1,6 @@
     
     var count = 0;
-
+    document.getElementById('EndRate').style.display = "none";
     document.querySelectorAll(".opcao").forEach((element) => {
         
         let el = 'on';
@@ -56,7 +56,7 @@
         
 
     })
-   document.getElementById('EndRate').style.display = "none";
+   
    function submit(){
    let submit = document.getElementById('Submit');
    let div1 =  document.getElementById('EndRate');
