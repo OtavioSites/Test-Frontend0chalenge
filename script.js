@@ -1,7 +1,6 @@
     
     var count = 0; 
-    let style = document.querySelector("style");
-        style.textContent += `
+    document.querySelector("style").textContent += `
             .opcao:hover{
                 background-color: hsl(25, 97%, 53%);
              `; 
