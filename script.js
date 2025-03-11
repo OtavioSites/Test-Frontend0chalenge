@@ -6,12 +6,12 @@
         let el = 'on';
         
        
-        let style = document.querySelector("style");
+       /* let style = document.querySelector("style");
         style.textContent += `
             .opcao:hover{
                 background-color: hsl(25, 97%, 53%);
              `; 
-            
+            */
         //Quando precisar usar style no javascript, atribua o style por ele mesmo no javascript e depois
         //Usa ele com textContent usando += para acrescentar conteudo
           
