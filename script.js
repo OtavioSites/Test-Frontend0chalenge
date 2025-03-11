@@ -1,17 +1,18 @@
     
-    var count = 0;
-    document.getElementById('EndRate').style.display = "none";
-    document.querySelectorAll(".opcao").forEach((element) => {
-        
-        let el = 'on';
-        
-       
-       /* let style = document.querySelector("style");
+    var count = 0; 
+    let style = document.querySelector("style");
         style.textContent += `
             .opcao:hover{
                 background-color: hsl(25, 97%, 53%);
              `; 
-            */
+            
+    document.getElementById('EndRate').style.display = "none";
+    document.querySelectorAll(".opcao").forEach((element) => {
+       
+        let el = 'on';
+        
+       
+      
         //Quando precisar usar style no javascript, atribua o style por ele mesmo no javascript e depois
         //Usa ele com textContent usando += para acrescentar conteudo
           
