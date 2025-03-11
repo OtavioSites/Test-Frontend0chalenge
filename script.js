@@ -70,4 +70,4 @@
 
   }
    
-
+  location.reload(true);
