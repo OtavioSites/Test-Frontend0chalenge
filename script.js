@@ -66,8 +66,9 @@
         text.innerHTML = "You selected "+count+" out of 5";
         div1.style.display = "flex";
         div2.style.display = "none";
+        
 
 
   }
    
-  location.reload(true);
+ 
